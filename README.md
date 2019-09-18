@@ -1,1 +1,1 @@
-# SkyRis-Community-BC
+# Discord Broadcast Bot
