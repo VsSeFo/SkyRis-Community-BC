@@ -10,7 +10,7 @@ client.on("message", message => {
   message.guild.members.filter(m => m.presence.status !== 'offline').forEach(m => {
  m.send(`${argresult}\n ${m}`);
 })
- message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : عدد الاعضاء المستلمين`); 
+ message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : Number of members received`); 
  message.delete(); 
 };     
 });
@@ -18,12 +18,12 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : BsKoT`);
+      console.log(`Desert Bot- Script By : VsSeFo`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : BsKoT ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : VsSeFo ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`SkyRis Community`,"http://twitch.tv/S-F")
+client.user.setGame(`Strix Community`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
